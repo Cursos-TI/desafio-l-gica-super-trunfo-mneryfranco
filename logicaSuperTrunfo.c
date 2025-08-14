@@ -73,30 +73,6 @@ int main() {
     SuperPoderC1 = (float) PopulacaoC1+ AreaC1 + PIBC1 + (float) PontosTuristicosC1 + PIBPerCapitaC1 + (1.0f / DensindadePopC1);
     SuperPoderC2 = (float) PopulacaoC2 + AreaC2 + PIBC2 + (float) PontosTuristicosC2 + PIBPerCapitaC2 + (1.0f / DensindadePopC2);
     
-
-    //Exibindo os dados da carta 1
-    printf("\nDados da Carta 1:\n");
-    printf("Codigo: %s\n", CodigoC1);
-    printf("Nome: %s\n", NomeC1);
-    printf("Populacao: %ld\n", PopulacaoC1);
-    printf("Área: %.2f km²\n", AreaC1);
-    printf("PIB: %.2f bilhoes de reais\n", PIBC1);
-    printf("Numero de Pontos Turisticos: %d\n", PontosTuristicosC1);
-    printf("Densidade Populacional: %.2f hab/km²\n", DensindadePopC1);
-    printf("PIB per Capita: %.2f reais\n", PIBPerCapitaC1);
-    printf("Super Poder: %.2f\n", SuperPoderC1);
-
-    // Exibindo os dados da carta 2
-    printf("\nDados da Carta 2:\n");
-    printf("Codigo: %s\n", CodigoC2);
-    printf("Nome: %s\n", NomeC2);
-    printf("Populacao: %ld\n", PopulacaoC2);
-    printf("Area: %.2f km²\n", AreaC2);
-    printf("PIB: %.2f bilhoes de reais\n", PIBC2);
-    printf("Numero de Pontos Turisticos: %d\n", PontosTuristicosC2);
-    printf("Densidade Populacional: %.2f hab/km²\n", DensindadePopC2);
-    printf("PIB per Capita: %.2f reais\n", PIBPerCapitaC2);
-    printf("Super Poder: %.2f\n", SuperPoderC2);
     
     //Menu - Comparação do atributo 1
     printf("\nEscolha o primeiro atributo a ser comparado:\n");
@@ -128,6 +104,30 @@ int main() {
         printf("\nOpcao invalida. Tente novamente!\n");
         return 0;
     }
+
+    //Exibindo os dados da carta 1
+    printf("\nDados da Carta 1:\n");
+    printf("Codigo: %s\n", CodigoC1);
+    printf("Nome: %s\n", NomeC1);
+    printf("Populacao: %ld\n", PopulacaoC1);
+    printf("Área: %.2f km²\n", AreaC1);
+    printf("PIB: %.2f bilhoes de reais\n", PIBC1);
+    printf("Numero de Pontos Turisticos: %d\n", PontosTuristicosC1);
+    printf("Densidade Populacional: %.2f hab/km²\n", DensindadePopC1);
+    printf("PIB per Capita: %.2f reais\n", PIBPerCapitaC1);
+    printf("Super Poder: %.2f\n", SuperPoderC1);
+
+    // Exibindo os dados da carta 2
+    printf("\nDados da Carta 2:\n");
+    printf("Codigo: %s\n", CodigoC2);
+    printf("Nome: %s\n", NomeC2);
+    printf("Populacao: %ld\n", PopulacaoC2);
+    printf("Area: %.2f km²\n", AreaC2);
+    printf("PIB: %.2f bilhoes de reais\n", PIBC2);
+    printf("Numero de Pontos Turisticos: %d\n", PontosTuristicosC2);
+    printf("Densidade Populacional: %.2f hab/km²\n", DensindadePopC2);
+    printf("PIB per Capita: %.2f reais\n", PIBPerCapitaC2);
+    printf("Super Poder: %.2f\n", SuperPoderC2);
 
     printf("\n\033[1mDisputa de Cartas:\033[0m\n");
     printf("%s vs %s \n", NomeC1, NomeC2);
