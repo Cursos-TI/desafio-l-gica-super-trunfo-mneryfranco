@@ -14,7 +14,8 @@ int main() {
     int pontosC1 = 0, pontosC2 = 0; //Armazena resultado da comparação entre as cartas
     int selectMenu1 = 0, selectMenu2 = 0;//Armazena quais atributos o usuário selecionou pra comparar
 
-    /*Setando valores para teste
+    /*
+    Setando valores para teste
     strcpy(CodigoC1, "A01");
     strcpy(CodigoC2, "B02");
     strcpy(NomeC1, "Sao Paulo");
@@ -23,8 +24,8 @@ int main() {
     PopulacaoC2 = 400000;
     AreaC1 = 400000.00 ;
     AreaC2 = 600000.00;
-    PIBC1 = 400.50;
-    PIBC2 = 600.50;
+    PIBC1 = 600.50;
+    PIBC2 = 400.50;
     PontosTuristicosC1 = 50;
     PontosTuristicosC2 = 50;
     */
@@ -231,14 +232,12 @@ int main() {
     
     //Compara a soma dos atributos e adiciona pontos a carta que tem a soma maior
     if(SomaSelectC1 > SomaSelectC2){
-        pontosC1++;
-        printf("Soma dos Atributos: \033[1m%.2f\033[0m vs %.2f\n", SomaSelectC1, SomaSelectC2);
+        printf("\nSoma dos Atributos: \033[1m%.2f\033[0m vs %.2f\n", SomaSelectC1, SomaSelectC2);
     } 
     else if(SomaSelectC1 < SomaSelectC2){
-        pontosC2++;
-        printf("Soma dos Atributos: %.2f vs \033[1m%.2f\033[0m\n", SomaSelectC1, SomaSelectC2);
+        printf("\nSoma dos Atributos: %.2f vs \033[1m%.2f\033[0m\n", SomaSelectC1, SomaSelectC2);
     }
-    else printf("Soma dos Atributos: %.2f vs %.2f\n", SomaSelectC1, SomaSelectC2);
+    else printf("\nSoma dos Atributos: %.2f vs %.2f\n", SomaSelectC1, SomaSelectC2);
 
 
     // Mostra o Resultado Final
